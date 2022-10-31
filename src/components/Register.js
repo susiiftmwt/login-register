@@ -16,8 +16,16 @@ const Register = () => {
                         <input type='text' class='form-control form-control-lg' />
                     </div>
                     <div class='form-group mt-3'>
+                        <label>Email</label>
+                        <input type='email' class='form-control form-control-lg' />
+                    </div>
+                    <div class='form-group mt-3'>
                         <label>Password</label>
-                        <input type='text' class='form-control form-control-lg' />
+                        <input type='password' class='form-control form-control-lg' />
+                    </div>
+                    <div class='form-group mt-3'>
+                        <label>Confirm Password</label>
+                        <input type='password' class='form-control form-control-lg' />
                     </div>
                     <div class='form-group mt-5'>
                         <Button class='btn btn-primary'>LOGIN</Button>
