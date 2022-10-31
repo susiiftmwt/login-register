@@ -13,11 +13,11 @@ const Login = () => {
                     <h1>LOGIN FORM</h1>
                     <div class='form-group mt-3'>
                         <label>Username</label>
-                        <input type='text' class='form-control' />
+                        <input type='text' class='form-control form-control-lg' />
                     </div>
                     <div class='form-group mt-3'>
                         <label>Password</label>
-                        <input type='text' class='form-control' />
+                        <input type='text' class='form-control form-control-lg' />
                     </div>
                     <div class='form-group mt-5'>
                         <Button class='btn btn-primary'>LOGIN</Button>
